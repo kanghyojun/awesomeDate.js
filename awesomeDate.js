@@ -3,7 +3,7 @@ var awesomeDate = {
     var hours = t.getHours();
 
     if(hours == 0) {
-      hours = '오전 12시'
+      hours = '오전 12'
     } else if (hours > 12) {
       hours = '오후 ' + (hours - 12); 
     } else {
