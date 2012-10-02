@@ -15,9 +15,11 @@ awesomeDate.js는 날짜를 조금 더 멋지게 표현하기위해서 만들어
 ### awesomeDate.time(timestamp)
 
  2분전, 2시간, 어제 오후 11시 21분과 같이 조금 더 멋진 날짜를 string으로 반환합니다.
- timestamp는 date 또는 string 형 자료들이 들어갈수있습니다.
+ timestamp는 Date형 자료가 들어갈수있습니다.
+
+     awesomeDate.time(new Date(2012, 9, 2)) // 현재날짜가 Date(2012, 9, 1) 일 경우 '어제 오전 12시 0분'을 출력합니다.
 
 ### awesomeDate.fullDate(timestamp)
 
  2012년 1월 21일 오후 11시 21분과 같은 전체 날짜를 반환합니다. 
- timestamp는 date 또는 string 형 자료들이 들어갈수있습니다.
+ timestamp는 Date형 자료가 들어갈수있습니다.
