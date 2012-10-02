@@ -29,8 +29,6 @@ var awesomeDate = {
     return res;
   },
   time: function(t) {
-    t = new Date(t);
-
     var diff = (new Date().getTime() - t.getTime()) / 1000,
         mDiff = diff / 60,
         hDiff = mDiff / 60,
