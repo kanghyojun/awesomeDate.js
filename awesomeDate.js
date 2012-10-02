@@ -16,7 +16,7 @@ var awesomeDate = {
       'month':  (t.getMonth() + 1) + '월',
       'day':  t.getDate() + '일',
       'hours': hours,
-      'minutes': t.getMinutes() +'분',
+      'minutes': t.getMinutes() +'분'
     };
 
     return date;
